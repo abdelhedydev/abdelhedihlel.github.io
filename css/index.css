@@ -9,7 +9,7 @@ body{
     margin-right: 10%;
 }
 .info{
-    height: 99vh;
+    height: 170px;
     position: relative;
     padding-top: 2%;
 }
@@ -32,4 +32,29 @@ body{
 }
 .social img{
     margin-left: 25px;
+}
+.row{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row-info{
+    display: inline-flex;
+}
+.row-icon{
+    width: 32px;
+    height: 32px;;
+}
+.row-title{
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.study-item{
+    padding-left: 40px;
+}
+.study-logo{
+    border: 1px solid blue;
+    width:25%;
 }
