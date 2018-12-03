@@ -52,9 +52,31 @@ body{
     text-decoration: underline;
 }
 .study-item{
+    position: relative;
+    border: 1px solid blue;
     padding-left: 40px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.study-item-info{
+    border: 1px solid green;
+    width: 24%;
+}
+.study-item-content{
+    width: 75%;
+    border: 1px solid red;
 }
 .study-logo{
-    border: 1px solid blue;
-    width:25%;
+    max-width: 100%;
+    height: auto;
+}
+span{
+    border: 1px solid grey;
+    border-radius: 20%;
+    color: #039be5;
+    background-color: white;
+    padding: 3px;
+    font-size: 14px;
 }
