@@ -53,7 +53,6 @@ body{
 }
 .study-item{
     position: relative;
-    border: 1px solid blue;
     padding-left: 40px;
     width: 100%;
     display: inline-flex;
@@ -61,12 +60,10 @@ body{
     margin-bottom: 5px;
 }
 .study-item-info{
-    border: 1px solid green;
     width: 24%;
 }
 .study-item-content{
     width: 75%;
-    border: 1px solid red;
 }
 .study-logo{
     max-width: 100%;
