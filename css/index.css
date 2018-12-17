@@ -1,79 +1,85 @@
-*{
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-    font-family: Ranga;
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: Ranga;
 }
-body{
-    margin-left: 10%;
-    margin-right: 10%;
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.info{
-    height: 170px;
-    position: relative;
-    padding-top: 2%;
+
+.info {
+  height: 170px;
+  position: relative;
+  padding-top: 2%;
 }
-.myimg{
-    border-radius: 50%;
-    max-width: 120px;
-    height: auto;
-    margin-left: 15px;
+
+.myimg {
+  border-radius: 50%;
+  max-width: 120px;
+  height: auto;
+  margin-left: 15px;
 }
-.detail{
-    position: absolute;
-    top: 2%;
-    left: 150px;
-    right: 0px;
+
+.detail {
+  position: absolute;
+  top: 2%;
+  left: 150px;
+  right: 0px;
 }
-.social{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+
+.social {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.social img{
-    margin-left: 25px;
+
+.social img {
+  margin-left: 25px;
 }
-.row{
-    position: relative;
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.row {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.row-info{
-    display: inline-flex;
+
+.row-info {
+  display: inline-flex;
 }
-.row-icon{
-    width: 32px;
-    height: 32px;;
+
+.row-icon {
+  width: 32px;
+  height: 32px;
+  ;
 }
-.row-title{
-    margin-left: 15px;
-    text-decoration: underline;
+
+.row-title {
+  margin-left: 15px;
+  text-decoration: underline;
 }
-.study-item{
-    position: relative;
-    padding-left: 40px;
-    width: 100%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
+
+.study-item {
+  position: relative;
+  padding-left: 40px;
+  width: 50%;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
-.study-item-info{
-    width: 24%;
+
+.study-title {
+  color: black;
 }
-.study-item-content{
-    width: 75%;
-}
-.study-logo{
-    max-width: 100%;
-    height: auto;
-}
-span{
-    border: 1px solid grey;
-    border-radius: 20%;
-    color: #039be5;
-    background-color: white;
-    padding: 3px;
-    font-size: 14px;
+
+span {
+  border: 1px solid grey;
+  border-radius: 20%;
+  color: #039be5;
+  background-color: white;
+  padding: 3px;
+  font-size: 14px;
 }
